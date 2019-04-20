@@ -3,6 +3,8 @@ from PyQt5.QtWidgets import *
 
 app = QApplication(sys.argv)
 window = QWidget()
+window.setWindowTitle('PyQt5-GUI')
+
 window.show()
 
-app.exec_()
+sys.exit(app.exec_())
